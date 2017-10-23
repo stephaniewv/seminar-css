@@ -1,24 +1,50 @@
-img {
-    width: 150px;
-}
-
-nav{
-outline: 1px solid red;
-width: 320px;
-}
-
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-li{
+/*setear nuestros archivos*/
+body {
+    box-sizing: border-box;
+    color: #303030;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  /*clases reutilizables*/
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  .box-header {
     display: inline-block;
-}
-
-a{
+  }
+  /* clases especificas*/
+  .logo-header {
+    width: 200px;
+  }
+  li {
+    display: inline;
+    list-style: none;/*quita las viñetas*/
+  }
+  
+  li a {
+    color: inherit;/*color hereda de su ancestro */
     text-decoration: none;
-    display: block;
+  }
+  
+  header {
+    position: relative;
+  }
+  nav {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+  
+  }
+  
+  section {
     text-align: center;
-}
+  }
+  
+  div {
+    display: inline-block;
+    width: 33%;
+  }
