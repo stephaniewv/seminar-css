@@ -19,20 +19,21 @@ body {
   .logo-header {
     width: 200px;
   }
-  li {
+li {
     display: inline;
     list-style: none;/*quita las viñetas*/
   }
   
-  li a {
+li a {
     color: inherit;/*color hereda de su ancestro */
     text-decoration: none;
   }
   
-  header {
+header {
     position: relative;
   }
-  nav {
+  
+nav {
     position: absolute;
     right: 5%;
     top: 50%;
@@ -40,11 +41,43 @@ body {
   
   }
   
-  section {
+section {
     text-align: center;
   }
   
-  div {
+div {
     display: inline-block;
-    width: 33%;
+    width: 32%;
+  }
+
+span{
+      font-size: 60px;
+  }
+s
+body section:last-child{
+      margin-top: 30px 50px 0 60px;
+
+  }
+
+img[alt='laboratoria']{
+      width: 120px;
+  }
+
+
+button {
+    padding: 10px;
+    background-color: #f9a91a;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+  }
+
+span:hover {
+    color: #f9a91a; 
+  }
+  
+.box-header ul li {
+margin: 0 15px;
   }
